@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Página de Clima</title>
+
+  <link rel="stylesheet" href="./src/output.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body class="font-lato bg-img bg-no-repeat bg-cover bg-fixed
+            grid place-content-center h-screen my-44 lg:my-0">
+
+  <main class="grid gap-6 h-full 
+         xs-520:grid-cols-2  xs-520:grid-rows-3  xs-520:w-[24rem]
+             lg:grid-cols-4      lg:grid-rows-2      lg:w-[60rem]      lg:h-[30rem]
+                                                    2xl:w-[74.25rem]">
+    <div class="bg-temp-now-img bg-no-repeat bg-cover xs-520:col-span-2 xs-520:row-span-2
+              flex flex-col gap-[3.75rem] justify-center rounded-[0.625rem] sm:mr-2
+              p-3 relative">
+      <img class="absolute top-[-3.5rem] left-[-3.5rem]" src="./assets/clouds.svg" alt="Nuvens">
+      <div class="flex items-center w-fit h-fit ml-auto mr-[1.25rem] mt-[1.25rem]">
+        <img class="w-5 h-5" src="./assets/pin.svg" alt="Pin">
+        <span class="w-full font-bold text-sm leading-6 text-clima-text-2">Rio do Sul, SC</span>
+      </div>
+      <div class="flex items-center justify-center h-fit text-center text-white font-bold">
+        <div class="grid">
+          <h1 class="text-8xl">18</h1>
+          <h2 class="text-xl">22° <span class="text-clima-text-2">16°</span></h2>
+        </div>
+        <sup class="self-start mt-5 text-2xl text-clima-text-1">°C</sup>
+      </div>
+      <div class="flex gap-2 w-full self-center justify-between mt-auto text-violet-100">
+        <div class="px-4 py-3 w-full max-w-[9.375rem] flex gap-3 bg-clima-background-secondary/60 rounded-md">
+          <img src="./assets/temp-wind.svg" alt="Vento">
+          <div class="grid gap-0 content-center">
+            <h4 class="text-xs leading-none">Vento</h4>
+            <p class="font-bold text-sm leading-none"><span class="text-lg">17</span> km/h</p>
+          </div>
+        </div>
+        <div class="px-4 py-3 w-full max-w-[9.375rem] flex gap-3 bg-clima-background-secondary/60 rounded-md">
+          <img src="./assets/temp-humidity.svg" alt="Umidade">
+          <div class="grid gap-0 content-center">
+            <h4 class="text-xs leading-none">Umidade</h4>
+            <p class="font-bold text-sm leading-none"><span class="text-lg">31</span> %</p>
+          </div>
+        </div>
+        <div class="px-4 py-3 w-full max-w-[9.375rem] flex gap-3 bg-clima-background-secondary/60 rounded-md">
+          <img src="./assets/temp-rain.svg" alt="Chuva">
+          <div class="grid gap-0 content-center">
+            <h4 class="text-xs leading-none">Chuva</h4>
+            <p class="font-bold text-sm leading-none"><span class="text-lg">10</span> %</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="grid grid-rows-[auto_1fr_auto] rounded-[0.625rem]
+                p-4 pt-8 font-bold
+              bg-clima-background">
+      <h2 class="flex gap-2 justify-center
+                  text-base text-clima-text-1">
+        <img class="w-6 h-6" src="./assets/leaf.svg" alt="Folha">
+        Qualidade do ar
+      </h2>
+      <h1 class="flex flex-col justify-center gap-1 text-center">
+        <span class="text-teal-200 text-lg">Boa</span>
+        <p class="text-violet-100 text-[2.5rem] leading-none">21</p>
+      </h1>
+      <div class="flex justify-between text-center text-violet-100">
+        <div class="grid">
+          <h4 class="text-teal-200 text-sm font-semibold">12.9</span>
+          <h3 class="text-xs font-normal">PM2.5</p>
+        </div>
+        <div class="grid">
+          <h4 class="text-teal-200 text-sm font-semibold">12.9</span>
+          <h3 class="text-xs font-normal">PM10</p>
+        </div>
+        <div class="grid">
+          <h4 class="text-teal-200 text-sm font-semibold">2.1</span>
+          <h3 class="text-xs font-normal">SO₂</p>
+        </div>
+        <div class="grid">
+          <h4 class="text-teal-200 text-sm font-semibold">1.4</span>
+          <h3 class="text-xs font-normal">NO₂</p>
+        </div>
+        <div class="grid">
+          <h4 class="text-teal-200 text-sm font-semibold">21.2</span>
+          <h3 class="text-xs font-normal">O₃</p>
+        </div>
+        <div class="grid">
+          <h4 class="text-teal-200 text-sm font-semibold">0.7</span>
+          <h3 class="text-xs font-normal">CO</p>
+        </div>
+      </div>
+    </div>
+    <div class="grid grid-rows-[auto_1fr] rounded-[0.625rem]
+                p-4 pt-8 gap-2 font-bold
+              bg-clima-background">
+      <h2 class="flex gap-2 justify-center
+                  text-base text-clima-text-1">
+        <img class="w-6 h-6" src="./assets/sun-time.svg" alt="Sol relógio">
+        Horário do sol
+      </h2>
+      <div class="relative grid grid-rows-[auto_1fr] gap-1">
+        <img class="mt-4 mx-auto" src="./assets/sun-chart-2.svg" alt="Horário do Sol">
+        <time class="relative text-center z-2 -mt-[4rem] h-0 font-bold text-white text-sm">16:01</time>
+        <div class="flex justify-between font-normal text-white text-xs">
+          <time>06:12</time>
+          <time>18:52</time>
+        </div>
+      </div>
+    </div>
+    <div class="flex items-center justify-between gap-1 lg:gap-3
+                rounded-[0.625rem] xs-520:col-span-2 p-4 lg:p-6 2xl:p-10
+                bg-clima-background
+                font-semibold text-sm lg:text-base text-white">
+      <div class="grid gap-4 justify-items-center">
+        <h4 class="text-clima-text-1 text-xs lg:text-sm">Amanhã</h4>
+        <img class="w-3/4 lg:w-16 h-auto" src="./assets/weather-clouds.svg" alt="">
+        <h3>21° <span class="text-clima-text-2">16°</span></h3>
+      </div>
+      <div class="grid gap-4 justify-items-center">
+        <h4 class="text-clima-text-1 text-xs lg:text-sm">Sexta</h4>
+        <img class="w-3/4 lg:w-16 h-auto" src="./assets/weather-sun.svg" alt="">
+        <h3>28° <span class="text-clima-text-2">20°</span></h3>
+      </div>
+      <div class="grid gap-4 justify-items-center">
+        <h4 class="text-clima-text-1 text-xs lg:text-sm">Sábado</h4>
+        <img class="w-3/4 lg:w-16 h-auto" src="./assets/weather-rain.svg" alt="">
+        <h3>25° <span class="text-clima-text-2">21°</span></h3>
+      </div>
+      <div class="grid gap-4 justify-items-center">
+        <h4 class="text-clima-text-1 text-xs lg:text-sm">Domingo</h4>
+        <img class="w-3/4 lg:w-16 h-auto" src="./assets/weather-thunder.svg" alt="">
+        <h3>20° <span class="text-clima-text-2">14°</span></h3>
+      </div>
+      <div class="grid gap-4 justify-items-center">
+        <h4 class="text-clima-text-1 text-xs lg:text-sm">Segunda</h4>
+        <img class="w-3/4 lg:w-16 h-auto" src="./assets/weather-cloudy.svg" alt="">
+        <h3>24° <span class="text-clima-text-2">18°</span></h3>
+      </div>
+    </div>
+  </main>
+
+</body>
+</html>
