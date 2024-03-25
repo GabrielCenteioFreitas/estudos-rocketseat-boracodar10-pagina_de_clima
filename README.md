@@ -45,6 +45,8 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 Projeto de uma Página de Clima desenvolvido a partir do Desafio 10 do evento "BoraCodar" da Rocketseat com o objetivo de treinar e aprimorar habilidades.
 
+Caso queira ver todos os desafios do evento clique [aqui](https://github.com/GabrielCenteioFreitas/estudos-rocketseat-boracodar).
+
 ## 🔖 Layout
 
 Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figma.com/community/file/1215291914714743267).
