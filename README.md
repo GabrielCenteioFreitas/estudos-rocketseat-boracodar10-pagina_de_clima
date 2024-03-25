@@ -1,4 +1,4 @@
-<h1 align="center">BoraCodar - Desafio 10</h1>
+<h1 align="center">BoraCodar - Desafio 10 - Página de Clima</h1>
 
 <p align="center">
   <a alt="HTML5">
@@ -8,7 +8,7 @@
     <img src="https://img.shields.io/badge/TAILWINDCSS-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white" />
   </a>
   <a alt="Figma">
-     <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" />
+     <img src="https://img.shields.io/badge/Figma-F24E1E?logo=figma&logoColor=white&style=for-the-badge" />
   </a>
 </p>
 
@@ -20,7 +20,7 @@
 
 <br>
 <p align="center">
-  <img alt="Imagem do projeto." src=".github/preview10.jpg" width="800px">
+  <img alt="Imagem do projeto." src=".github/preview10.jpg" width="80%">
 </p>
 
 <h4 align="center">
