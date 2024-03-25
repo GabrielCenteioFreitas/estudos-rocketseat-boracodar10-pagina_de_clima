@@ -25,7 +25,7 @@
 
 <h4 align="center">
   
-  [GitHub Pages](https://gabrielcenteiofreitas.github.io/estudos-rocketseat-boracodar10-pagina_de_clima/)
+  [Ver projeto](https://gabrielcenteiofreitas.github.io/estudos-rocketseat-boracodar10-pagina_de_clima/)
 </h4>
 
 <br>
